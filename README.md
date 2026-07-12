@@ -42,9 +42,9 @@ A simple Artificial Neural Network (ANN) implemented in PyTorch for binary class
 - Epochs: 100
 
 ## Example Output
-### Accuracy: 0.6053
-### Malignant
-### tensor([[0.0011]])
+ Accuracy: 0.6053  
+ Malignant   
+ tensor([[0.0011]])  
 
 پ
 
