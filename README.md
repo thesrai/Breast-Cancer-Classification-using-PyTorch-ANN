@@ -6,9 +6,9 @@ A simple Artificial Neural Network (ANN) implemented in PyTorch for binary class
 - Source: scikit-learn
 - Binary Classification
 - 30 numerical features
-- Target:
-0 = Malignant
-1 = Benign
+- Target:  
+0 = Malignant  
+1 = Benign  
 
 ## Technologies
 - Python
