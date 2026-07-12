@@ -10,7 +10,7 @@ A simple Artificial Neural Network (ANN) implemented in PyTorch for binary class
 0 = Malignant
 1 = Benign
 
-##Technologies
+## Technologies
 - Python
 - PyTorch
 - scikit-learn
@@ -28,20 +28,20 @@ A simple Artificial Neural Network (ANN) implemented in PyTorch for binary class
 - Calculate Accuracy
 - Predict on New Sample
 
-##Model Architecture
+## Model Architecture
 - Input Layer (30)
 - Linear (30 → 32)
 - ReLU
 - Linear (32 → 1)
 - Sigmoid
 
-##Trainig
+## Trainig
 - Loss Function: Binary Cross Entropy Loss (BCELoss)
 - Optimizer: Adam
 - Learning Rate: 0.001
 - Epochs: 100
 
-##Example Output
+## Example Output
 Accuracy: 0.6053
 Malignant
 tensor([[0.0011]])
