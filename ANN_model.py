@@ -6,10 +6,10 @@ from sklearn.preprocessing import StandardScaler
 from torch.utils.data import Dataset
 from torch.utils.data import DataLoader
 
-data = load_breast_cancer() # یک شی از  <class 'sklearn.utils._bunch.Bunch'>
+data = load_breast_cancer() 
 
 
-X = data.data # = data['data']
+X = data.data 
 y = data.target
 
 X_train, X_test, y_train, y_test = train_test_split(
@@ -69,7 +69,7 @@ optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
 for epoch in range(100):
     for X_batch, y_batch in train_loader:
         prediction = model(X_batch)
-        loss = loss_fn(prediction, y_batch) # تو پروژه های واقعی ضرر کل epoch حساب میشه
+        loss = loss_fn(prediction, y_batch) 
         optimizer.zero_grad()
         loss.backward()
         optimizer.step()
